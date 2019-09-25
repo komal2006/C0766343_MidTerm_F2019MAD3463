@@ -16,7 +16,7 @@ public class C0766343_MidTerm
         System.out.println("0001 : "+object.binaryToDecimal("0001"));
         System.out.println();
 
-        System.out.println( object.initaials("jean luc peacrd"));
+        System.out.println( object.initaials("James Tiberius Kirk"));
 
 
 

@@ -27,20 +27,24 @@ public class LambtonStringTools {
         return decimal;
     }
 
-    public String initaials(String s) {
+    public String initaials(String s)
+    {
         System.out.println("Given String is:" + s);
         int length = s.length();
         s = s.trim();
         String string1 = "";
         System.out.print("Initials is: ");
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < length; i++)
+        {
             char ch = s.charAt(i);
-            if (ch != ' ') {
+            if (ch != ' ')
+            {
                 string1 = string1 + ch;
-            } else {
+            } else
+                {
                 System.out.print(Character.toUpperCase(string1.charAt(0)) + ". ");
                 string1 = "";
-            }
+                }
         }
         String str2 = "";
         for (int j = 0; j < string1.length(); j++)
