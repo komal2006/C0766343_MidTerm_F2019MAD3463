@@ -13,6 +13,9 @@ public class LambtonStringTools
         }
         return rev.toString();
     }
+
+
+
     public int binaryToDecimal(String binary)
     {
         int decimal = 0;
