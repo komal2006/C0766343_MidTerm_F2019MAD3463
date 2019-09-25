@@ -17,6 +17,9 @@ public class C0766343_MidTerm
         System.out.println();
 
         System.out.println( object.initaials("James Tiberius Kirk"));
+        System.out.println( object.initaials("Jean luc Picrad"));
+
+
 
 
 
